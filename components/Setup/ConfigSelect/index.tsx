@@ -206,7 +206,7 @@ export const ConfigSelect: React.FC<ConfigSelectProps> = ({
             ))}
           </Select>
         </Field>
-        <Accordion type="single" collapsible>
+        {/* <Accordion type="single" collapsible>
           {language === 0 && (
             <AccordionItem value="character">
               <AccordionTrigger>Character</AccordionTrigger>
@@ -335,7 +335,7 @@ export const ConfigSelect: React.FC<ConfigSelectProps> = ({
               />
             </AccordionContent>
           </AccordionItem>
-        </Accordion>
+        </Accordion> */}
       </div>
     </>
   );
